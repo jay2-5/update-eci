@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect } from 'react';
 import { User, MessageSquare, Info, Send, Calendar, ArrowLeft } from 'lucide-react';
-import { Footer } from '@/components/ui/footer';
 
 interface BookCallPageProps {
   onBack: () => void;
@@ -294,9 +293,6 @@ Additional Information: ${formData.additionalInfo}`;
             </div>
           </div>
         </main>
-
-        {/* Footer */}
-        <Footer />
       </div>
     );
   }
@@ -461,9 +457,6 @@ Additional Information: ${formData.additionalInfo}`;
           </div>
         </div>
       </main>
-
-      {/* Footer */}
-      <Footer />
     </div>
   );
 }

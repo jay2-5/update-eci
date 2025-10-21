@@ -5,7 +5,6 @@ import { FAQsPage } from '@/components/ui/faqs-page';
 import { BookCallPage } from '@/components/ui/book-call-page';
 import { NotFoundPage } from '@/components/ui/not-found-page';
 import { SEOHead } from '@/components/ui/seo-head';
-import { Footer } from '@/components/ui/footer';
 
 function App() {
   const [currentPage, setCurrentPage] = useState<'home' | 'services' | 'book-call' | '404'>('home');
@@ -162,9 +161,6 @@ function App() {
             </p>
           </div>
         </section>
-
-        {/* Footer */}
-        <Footer />
       </div>
     </>
   );

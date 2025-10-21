@@ -2,7 +2,6 @@
 
 import React, { useState } from 'react';
 import { ArrowLeft, Bot, Phone, Mail, Wrench } from 'lucide-react';
-import { Footer } from '@/components/ui/footer';
 
 interface ServicesPageProps {
   onBack: () => void;
@@ -199,9 +198,6 @@ export function ServicesPage({ onBack, onNavigateToBookCall, onNavigateToBookCal
           </div>
         </div>
       </div>
-
-      {/* Footer */}
-      <Footer />
     </div>
   );
 }
