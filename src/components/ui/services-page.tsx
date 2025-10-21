@@ -64,9 +64,9 @@ export function ServicesPage({ onBack, onNavigateToBookCall, onNavigateToBookCal
       <header className="relative z-10 px-4 md:px-6 py-4 md:py-6 flex-shrink-0">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
           <div className="flex items-center">
-            <img 
-              src="/cover copy.png" 
-              alt="Starvico Logo" 
+            <img
+              src="/Logo copy copy.png"
+              alt="Turbo Automation Logo"
               className="h-24 md:h-32 lg:h-40 w-auto"
             />
           </div>
