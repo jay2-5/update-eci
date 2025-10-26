@@ -5,6 +5,7 @@ import { FAQsPage } from '@/components/ui/faqs-page';
 import { BookCallPage } from '@/components/ui/book-call-page';
 import { NotFoundPage } from '@/components/ui/not-found-page';
 import { SEOHead } from '@/components/ui/seo-head';
+import { Footer } from '@/components/Footer';
 
 function App() {
   const [currentPage, setCurrentPage] = useState<'home' | 'services' | 'book-call' | '404'>('home');
@@ -69,6 +70,7 @@ function App() {
       <>
         <SEOHead {...currentSEO} />
         <ServicesPage onBack={handleBackToHome} onNavigateToBookCall={handleNavigateToBookCall} onNavigateToBookCallWithService={handleNavigateToBookCallWithService} />
+        <Footer />
       </>
     );
   }
@@ -78,6 +80,7 @@ function App() {
       <>
         <SEOHead {...currentSEO} />
         <BookCallPage onBack={handleBackToHome} onNavigateToServices={handleNavigateToServices} />
+        <Footer />
       </>
     );
   }
@@ -91,6 +94,7 @@ function App() {
           onNavigateToServices={handleNavigateToServices}
           onNavigateToBookCall={handleNavigateToBookCall}
         />
+        <Footer />
       </>
     );
   }
@@ -162,6 +166,7 @@ function App() {
           </div>
         </section>
       </div>
+      <Footer />
     </>
   );
 }
