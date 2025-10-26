@@ -28,7 +28,7 @@ const socialLinks = [
 
 export function Footer() {
   return (
-    <footer className="py-6 bg-gradient-to-t from-gray-900/20 to-transparent">
+    <footer className="py-6 bg-black">
       <div className="max-w-7xl mx-auto px-4 md:px-6">
         <div className="flex justify-center items-center space-x-8">
           {socialLinks.map((social, index) => {
