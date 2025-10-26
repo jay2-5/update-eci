@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import { ChevronDown, ChevronUp } from 'lucide-react';
+import { Footer } from '@/components/ui/footer';
 
 interface FAQsPageProps {
   onBack: () => void;
@@ -193,6 +194,9 @@ export function FAQsPage({ onBack, onNavigateToServices, onNavigateToBookCall }:
           </div>
         </div>
       </div>
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }

@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import { Search, Home, Phone, HelpCircle, Wrench, ArrowLeft, ExternalLink } from 'lucide-react';
+import { Footer } from '@/components/ui/footer';
 
 interface NotFoundPageProps {
   onNavigateToHome: () => void;
@@ -266,6 +267,9 @@ export function NotFoundPage({ onNavigateToHome, onNavigateToServices, onNavigat
           </div>
         </div>
       </main>
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }
